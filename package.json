@@ -1,0 +1,13 @@
+{
+  "name": "revs",
+  "module": "index.ts",
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@hono/graphql-server": "^0.5.1",
+    "graphql": "^16.10.0",
+    "hono": "^4.6.15"
+  }
+}
