@@ -6,8 +6,12 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "@hono/graphql-server": "^0.5.1",
+    "@graphql-yoga/plugin-graphql-sse": "^3.10.8",
     "graphql": "^16.10.0",
+    "graphql-yoga": "^5.10.8",
     "hono": "^4.6.15"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.14"
   }
 }
